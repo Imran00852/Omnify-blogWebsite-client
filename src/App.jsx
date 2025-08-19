@@ -11,9 +11,9 @@ import axios from "axios";
 import { url } from "./constants/config";
 import { userExist, userNotExist } from "./redux/reducers/auth";
 import Loader from "./components/Loader";
-import ProtectedRoute from "../../../Chatterly/chatterly-frontend/src/components/auth/ProtectedRoute";
 import BlogDetails from "./pages/BlogDetails";
 import MyBlogs from "./pages/MyBlogs";
+import ProtectedRoute from "./components/ProtectedRoute";
 
 const App = () => {
   const dispatch = useDispatch();
