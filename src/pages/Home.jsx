@@ -119,7 +119,7 @@ const Home = () => {
                     <Card
                       sx={{
                         height: 210,
-                        width: { xs: 500, md: 260 },
+                        width: 260,
                         borderRadius: 4,
                         boxShadow: "0 4px 12px rgba(0,0,0,0.1)",
                         transition: "0.3s",
