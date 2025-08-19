@@ -56,6 +56,7 @@ const CreateBlog = () => {
           type="submit"
           variant="contained"
           sx={{ backgroundColor: "#673ab7" }}
+          disabled={title.length == 0 || content.length === 0}
         >
           Publish
         </Button>
